@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:piconnect}",
+            "name": "Debug piconnect",
+            "target": "piconnect",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug piconnect"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:piconnect}",
+            "name": "Release piconnect",
+            "target": "piconnect",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release piconnect"
+        }
+    ]
+}
